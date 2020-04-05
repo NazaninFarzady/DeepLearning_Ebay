@@ -12,6 +12,7 @@ We choosed some models to train in order to meet our goals including:
 3. DenseNet
 4. DeepLab v3
 5. Pytorch
+
 After training and testing the models with dataset, we will do benchmarking and compair the models performance
 
 ## Web Interface
