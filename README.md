@@ -3,7 +3,7 @@ The main goal of project: Follow in the steps of Ebay and build an app that remo
 The sub-goal is to train model for changing the background of image
 
 ## Dataset
-We consider using a subset of Coco dataset which is a popular large dataset in Image processing
+We create our dataset similar to the coco structure with limited categories for our project
 
 ## Models
 We choose Mask RCNN to train our model. The Mask R-CNN model generates bounding boxes and segmentation masks for each instance of an object in the image. Details on the requirements and background removal results for this repository can be found at the end of the document.
