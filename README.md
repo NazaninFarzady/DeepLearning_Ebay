@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 ## RUN
 [bg_removal.ipynb](https://github.com/NazaninFarzady/DeepLearning_Ebay/blob/TrainingModel/bg_removal.ipynb) shows how to remove the background of your image.  
-Before run bg_removal.ipynb, download the pre-trained model weights /logs/object/mask_rcnn_objrct_0010.h5 on www.wetransfer.com and change the path of your root and image. 
+Before run bg_removal.ipynb, download the pre-trained model weights ( https://wetransfer.com/downloads/2d56c023b813d61d1145b44a94b8ffe620200427132536/0cbf9373e6b9c610fa1e63385598143820200427132536/42cbf7) and change the path of your root and image. 
 
 ## Results
 ![image](https://github.com/NazaninFarzady/DeepLearning_Ebay/blob/TrainingModel/detect_results/image_name.png)
