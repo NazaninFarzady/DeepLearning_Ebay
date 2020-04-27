@@ -19,17 +19,17 @@ After training and testing the models with dataset, we will do benchmarking and 
 At the end we will provide a web application interface in order to able user for entering image, choosing from the models and select remove/change the background of the image
 
 ## Requirements
-Python 3 
-TensorFlow = 1.x 
-GPU 
+Python 3  
+TensorFlow = 1.x  
+GPU   
 
 ## Instalation 
-1.Clone this repository. 
-git clone 
-2.Install dependencies.
-pip install -r requirements.txt 
+1.Clone this repository.  
+git clone https://github.com/NazaninFarzady/DeepLearning_Ebay.git  
+2.Install dependencies.  
+pip install -r requirements.txt   
 
 ## How-to
-Change the path of file
-Go to ./libs/datasets/pycocotools and run bg_removal.ipynb shows how to remove the background of your image.
+bg_removal.ipynb shows how to remove the background of your image.  
+Change the path of your image.
 Saved the image in png format.
