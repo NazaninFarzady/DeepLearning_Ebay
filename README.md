@@ -15,14 +15,14 @@ At the end we will provide a web application interface in order to able user for
 - Python 3  
 - TensorFlow > 1.3.0
 - opencv-python
-- skimage, matplotlib
+- skimage, matplotlib, numpy
 
 ## Instalation 
-1.Clone this repository.  
+1. Clone this repository.  
 ```
 git clone https://github.com/NazaninFarzady/DeepLearning_Ebay.git  
 ``` 
-2.Install dependencies.  
+2. Install dependencies.  
 ```
 pip install -r requirements.txt   
 ```
