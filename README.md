@@ -6,22 +6,16 @@ The sub-goal is to train model for changing the background of image
 We consider using a subset of Coco dataset which is a popular large dataset in Image processing
 
 ## Models
-We choosed some models to train in order to meet our goals including:
-1. Tiramisu
-2. Unet
-3. DenseNet
-4. DeepLab v3
-5. Mask RCNN
-
-After training and testing the models with dataset, we will do benchmarking and compair the models performance
+We choose Mask RCNN to train our model. The Mask R-CNN model generates bounding boxes and segmentation masks for each instance of an object in the image. Details on the requirements, training on our subset of COCO dataset and background removal results for this repository can be found at the end of the document.
 
 ## Web Interface
 At the end we will provide a web application interface in order to able user for entering image, choosing from the models and select remove/change the background of the image
 
 ## Requirements
 - Python 3  
-- TensorFlow = 1.x  
-- GPU   
+- TensorFlow > 1.3.0
+- opencv-python
+- skimage, matplotlib
 
 ## Instalation 
 1.Clone this repository.  
@@ -35,5 +29,5 @@ pip install -r requirements.txt
 
 ## How-to
 [bg_removal.ipynb](https://github.com/NazaninFarzady/DeepLearning_Ebay/) shows how to remove the background of your image.  
-Change the path of your image.
+Before run bg_removal.ipynb, download the pre-trained model weights on www.wetransfer.com and change the path of your root and image.
 Saved the image in png format.
