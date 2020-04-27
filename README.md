@@ -32,4 +32,5 @@ pip install -r requirements.txt
 Before run bg_removal.ipynb, download the [pre-trained model weights](https://wetransfer.com/downloads/2d56c023b813d61d1145b44a94b8ffe620200427132536/0cbf9373e6b9c610fa1e63385598143820200427132536/42cbf7) and change the path of your root and image.  
 
 ## Results
+![image](https://github.com/NazaninFarzady/DeepLearning_Ebay/blob/TrainingModel/ebay_dataset_1/test/images/00000006.jpg)
 ![image](https://github.com/NazaninFarzady/DeepLearning_Ebay/blob/TrainingModel/detect_results/image_name.png)
