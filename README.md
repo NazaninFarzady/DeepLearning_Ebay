@@ -6,7 +6,7 @@ The sub-goal is to train model for changing the background of image
 We consider using a subset of Coco dataset which is a popular large dataset in Image processing
 
 ## Models
-We choose Mask RCNN to train our model. The Mask R-CNN model generates bounding boxes and segmentation masks for each instance of an object in the image. Details on the requirements, training on our subset of COCO dataset and background removal results for this repository can be found at the end of the document.
+We choose Mask RCNN to train our model. The Mask R-CNN model generates bounding boxes and segmentation masks for each instance of an object in the image. Details on the requirements and background removal results for this repository can be found at the end of the document.
 
 ## Web Interface
 At the end we will provide a web application interface in order to able user for entering image, choosing from the models and select remove/change the background of the image
@@ -27,7 +27,8 @@ git clone https://github.com/NazaninFarzady/DeepLearning_Ebay.git
 pip install -r requirements.txt   
 ```
 
-## How-to
-[bg_removal.ipynb](https://github.com/NazaninFarzady/DeepLearning_Ebay/) shows how to remove the background of your image.  
-Before run bg_removal.ipynb, download the pre-trained model weights on www.wetransfer.com and change the path of your root and image.
-Saved the image in png format.
+## RUN
+[bg_removal.ipynb](https://github.com/NazaninFarzady/DeepLearning_Ebay/blob/TrainingModel/bg_removal.ipynb) shows how to remove the background of your image.  
+Before run bg_removal.ipynb, download the pre-trained model weights /logs/object/mask_rcnn_objrct_0010.h5 on www.wetransfer.com and change the path of your root and image. 
+
+## Results
