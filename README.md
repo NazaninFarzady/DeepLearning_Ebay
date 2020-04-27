@@ -19,9 +19,9 @@ After training and testing the models with dataset, we will do benchmarking and 
 At the end we will provide a web application interface in order to able user for entering image, choosing from the models and select remove/change the background of the image
 
 ## Requirements
-Python 3  
-TensorFlow = 1.x  
-GPU   
+- Python 3  
+- TensorFlow = 1.x  
+- GPU   
 
 ## Instalation 
 1.Clone this repository.  
@@ -34,6 +34,6 @@ pip install -r requirements.txt
 ```
 
 ## How-to
-bg_removal.ipynb shows how to remove the background of your image.  
+[bg_removal.ipynb](https://github.com/NazaninFarzady/DeepLearning_Ebay/) shows how to remove the background of your image.  
 Change the path of your image.
 Saved the image in png format.
